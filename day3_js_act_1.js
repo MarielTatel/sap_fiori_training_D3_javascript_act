@@ -1,6 +1,6 @@
 /**************************************************
  ******* SAP Fiori SAPUI5 Basic Training **********
- * Program: Day 3: JavaScript Activity 1
+ * Program: Day 3 - JavaScript Activity Item 1
  * Description: 
  *  Convert into words the given number ranging
  *  from 1 - 999.
@@ -18,7 +18,9 @@ const wordTens = ["", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Sevent
 const wordHundred = "Hundred";
 
 // GIVEN NUMBER
-var number = 301;
+var number = 789;
+
+// Output
 var word = "";
 
 if (number >= 1 && number <= 999) {
