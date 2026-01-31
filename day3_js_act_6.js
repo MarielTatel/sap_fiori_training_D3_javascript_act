@@ -38,9 +38,10 @@ var record = [{
 
 var maxSkillset = Math.max(...Object.values(record).map(p => p.SkillSet.length))
 
-console.log("Person with the highest number of skillset:");
 record.forEach(function (person) {
     if (person.SkillSet.length == maxSkillset) {
-        console.log("\t" + person.Name + ", " + person.Age);
+        console.log("Name: " + person.Name);
+        console.log("Age: " + person.Age);
+        console.log();
     };
 });

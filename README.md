@@ -114,6 +114,6 @@ Compilation of JavaScript activity for SAP Fiori SAPUI5 Basic Training
 
     > Output:
     > ```
-    > Person with the highest number of skillset:
-    > 	Patrick, 22
+    > Name: Patrick
+    > Age: 22
     > ```
